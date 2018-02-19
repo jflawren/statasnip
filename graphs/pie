@@ -1,0 +1,4 @@
+
+*** We know that both of these are nominal variables so we can make a pie or bar chart. But, there are too many values for make, so lets just create the graphs for foreign
+graph pie, over(foreign)
+graph bar (count), over(foreign)
