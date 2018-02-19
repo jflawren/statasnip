@@ -1,0 +1,18 @@
+
+*** General note: typing the word "help" followed by the commnand you need help with gives will bring up a help files with examples. I highly recommend commands and options with official Stata help. 
+
+
+*** First example looks at the auto data set
+*** We will open it
+webuse auto.dta
+
+*** now we want to inspect the make variable
+codebook make
+
+*** now we will inspect the price variable
+codebook price
+
+*** lets tabulate the make and the foreign variable
+tab make
+tab foreign
+
